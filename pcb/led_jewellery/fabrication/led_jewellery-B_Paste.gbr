@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2025-05-28T14:43:40+01:00*%
+%TF.ProjectId,led_jewellery,6c65645f-6a65-4776-956c-6c6572792e6b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-05-28 14:43:40*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,8.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J2*%
+X124500000Y-72000000D03*
+%TD*%
+%TO.C,J1*%
+X124500000Y-84800000D03*
+%TD*%
+M02*
