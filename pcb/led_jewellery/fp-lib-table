@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "diptronics_ta3")(type "KiCad")(uri "/home/tiago/Documents/MILL/julie_obled/pcb/components")(options "")(descr ""))
-  (lib (name "led_jewellery")(type "KiCad")(uri "/home/tiago/Documents/MILL/julie_obled/pcb/components/led_jewellery.pretty")(options "")(descr ""))
-  (lib (name "mousebites")(type "KiCad")(uri "/home/tiago/Documents/MILL/julie_obled/pcb/components/mousebites.pretty")(options "")(descr ""))
+  (lib (name "diptronics_ta3")(type "KiCad")(uri "../components")(options "")(descr ""))
+  (lib (name "led_jewellery")(type "KiCad")(uri "../components/led_jewellery.pretty")(options "")(descr ""))
+  (lib (name "mousebites")(type "KiCad")(uri "../components/mousebites.pretty")(options "")(descr ""))
 )

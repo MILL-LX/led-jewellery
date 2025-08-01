@@ -78,7 +78,7 @@
 		(tenting front back)
 		(grid_origin 124.5 72)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_575555ff)
+			(layerselection 0x00000000_00000000_55555555_5755557f)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -190,11 +190,24 @@
 				)
 			)
 		)
+		(property "LCSC_part#" ""
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "173eab65-984b-4b9f-b165-99b08b76943f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0314eee0-d0eb-4a2d-b59c-ae08ef0e1242")
 		(sheetname "/")
 		(sheetfile "led_jewellery.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.6 1)
 			(end -1.6 1)
@@ -203,7 +216,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5b16d60a-9e6a-4ff2-9f56-f34f0958da3c")
+			(uuid "0d3aa0d9-b6a8-49ba-8c49-0185bd79981a")
 		)
 		(fp_line
 			(start 1.6 0.6)
@@ -213,7 +226,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9a238107-1494-43ae-86d5-5f22dbec2c49")
+			(uuid "16849b76-489d-4de6-9266-2d1cfc774d75")
 		)
 		(fp_line
 			(start 1.6 -1)
@@ -223,7 +236,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ce7c47ff-357d-41a3-a4f6-027199dc2f48")
+			(uuid "cdd4f9e4-32c6-4227-8156-8f60ee427ece")
 		)
 		(fp_line
 			(start -1.6 1)
@@ -233,7 +246,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "29f00843-d1da-4f7a-abb7-1ec27afca1a8")
+			(uuid "dad69fe6-e82a-4c1a-b7ee-011ff3123124")
 		)
 		(fp_line
 			(start -1.6 -0.6)
@@ -243,7 +256,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "78d84e5a-1e4c-4e4f-8869-97540b93abdf")
+			(uuid "3d41ae92-d011-4cf8-8031-278c9edb861a")
 		)
 		(fp_line
 			(start -1.6 -1)
@@ -253,7 +266,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "491016ad-9033-444f-92e8-2717ee8740dd")
+			(uuid "65b860a2-2608-4eb2-9844-b3d387a7ccc1")
 		)
 		(fp_poly
 			(pts
@@ -265,7 +278,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "af3ec821-ec10-47b2-81f2-03cb41634015")
+			(uuid "59b6aa54-e249-476e-966c-ad44671ffd94")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 3.4 225)
@@ -282,7 +295,7 @@
 		(pad "1" smd rect
 			(at -3.2 0 225)
 			(size 5.5 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu" "F.Mask")
 			(net 3 "/BAT-")
 			(pinfunction "K")
 			(pintype "passive")
@@ -292,7 +305,7 @@
 		(pad "2" smd rect
 			(at 3.2 0 225)
 			(size 5.5 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu" "F.Mask")
 			(net 2 "/LED+")
 			(pinfunction "A")
 			(pintype "passive")
@@ -517,6 +530,19 @@
 				)
 			)
 		)
+		(property "LCSC_part#" "C17408"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c65fc27-6bf9-4bc8-89a2-1bbc5b7d8289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cdb1a04c-0de8-418e-88f0-fd2b60f13fb6")
 		(sheetname "/")
@@ -719,6 +745,19 @@
 				)
 			)
 		)
+		(property "LCSC_part#" "C501583"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc8ca1d9-c237-468b-b166-66bc6e66c98b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/dcae1e44-4951-452b-a3bb-950e85da6711")
 		(sheetname "/")
 		(sheetfile "led_jewellery.kicad_sch")
@@ -867,6 +906,7 @@
 			(at 0 5.400001 45)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bc21947b-127e-49c3-9f7b-50f154b2c701")
 			(effects
 				(font
@@ -917,11 +957,25 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC_part#" ""
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5470e34b-b379-4594-aa05-25c183453735")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5cce6e7c-09ff-4e43-ab2a-98092dc48afb")
 		(sheetname "/")
 		(sheetfile "led_jewellery.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 -6.999999 45)
 			(unlocked yes)
@@ -938,7 +992,7 @@
 		(pad "1" smd circle
 			(at 0 0 225)
 			(size 9 9)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "B.Cu" "B.Mask")
 			(net 3 "/BAT-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -954,6 +1008,7 @@
 			(at 0 5.4 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9fe44767-01e8-45bb-b19f-6762bc3c05e3")
 			(effects
 				(font
@@ -1004,11 +1059,25 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC_part#" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2312a1b5-60c2-4be9-8784-a8b5fa7fbafa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/74890c57-723f-49ed-91fd-36b992c2a797")
 		(sheetname "/")
 		(sheetfile "led_jewellery.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_text user "${REFERENCE}"
 			(at 0 -7 0)
 			(unlocked yes)
@@ -1025,7 +1094,7 @@
 		(pad "1" smd circle
 			(at 0 0 180)
 			(size 9 9)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "B.Cu" "B.Mask")
 			(net 4 "/BAT+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
@@ -1053,17 +1122,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "0120a4e2-4107-4fba-98c4-937fa3b7b656")
-	)
-	(gr_arc
-		(start 120.952656 90.468665)
-		(mid 118.826176 90.473825)
-		(end 118.831189 88.347491)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "078f25c5-a1df-4093-83dc-c02d79466baf")
 	)
 	(gr_arc
 		(start 127.115338 79.4)
@@ -1097,6 +1155,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "1a71c32d-e3da-430b-b3d0-37cb05588532")
+	)
+	(gr_arc
+		(start 124.5 65.573)
+		(mid 125.304105 65.623501)
+		(end 126.095573 65.774209)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "23071112-bab5-4634-8174-08f77a60f0d1")
 	)
 	(gr_line
 		(start 120.952656 90.468665)
@@ -1148,6 +1217,28 @@
 		(layer "Edge.Cuts")
 		(uuid "3a047449-beda-41ce-b795-b5ed12cdd50b")
 	)
+	(gr_arc
+		(start 122.880439 65.780406)
+		(mid 123.683606 65.625062)
+		(end 124.5 65.573)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3e667dc6-756a-4bbf-96e9-73080578273e")
+	)
+	(gr_arc
+		(start 127.557737 79.637612)
+		(mid 128.742649 80.557367)
+		(end 129.662399 81.742283)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4d6493e7-5fb7-4876-95f2-bfb868f097f8")
+	)
 	(gr_line
 		(start 127.100554 77.4)
 		(end 126.5 77.4)
@@ -1169,15 +1260,36 @@
 		(layer "Edge.Cuts")
 		(uuid "61aa4486-5654-4b14-b0fe-b1b47e12c2b7")
 	)
-	(gr_line
-		(start 126.111394 65.664411)
-		(end 126.095573 66.222715)
+	(gr_arc
+		(start 120.952656 90.468665)
+		(mid 119.771517 89.528516)
+		(end 118.83136 88.347384)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "a570e9f4-9127-4107-b032-6146290b06b6")
+		(uuid "659b9666-cc74-42a5-a535-c475aedc62b0")
+	)
+	(gr_line
+		(start 126.095571 66.222715)
+		(end 126.095573 65.774209)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8fe57426-1821-43ed-b4a0-e8262167af69")
+	)
+	(gr_line
+		(start 122.880439 66.222717)
+		(end 122.880439 65.780407)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a2ec1cd2-ea6d-4457-81ed-f2fa7ffd747a")
 	)
 	(gr_line
 		(start 118.164809 82.94923)
@@ -1232,17 +1344,6 @@
 		(uuid "bca651df-73b4-423c-8bd5-72e8251fe4c2")
 	)
 	(gr_arc
-		(start 122.886016 65.573062)
-		(mid 124.499969 63.959016)
-		(end 126.111394 65.664411)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bf1d8840-dd1f-4227-80b1-8ef2e21eb59d")
-	)
-	(gr_arc
 		(start 128.163385 90.289954)
 		(mid 127.289282 90.78163)
 		(end 126.350773 91.135186)
@@ -1252,27 +1353,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "c646aa95-31ec-40bc-a781-84390e72b249")
-	)
-	(gr_arc
-		(start 127.557717 79.637601)
-		(mid 129.803302 79.4967)
-		(end 129.662399 81.742283)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c9664472-f141-44b4-9269-ed3d2e78f1f5")
-	)
-	(gr_line
-		(start 122.886016 65.573062)
-		(end 122.880439 66.222715)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ca1bb441-23a8-4ae6-99bc-62a8a3dece05")
 	)
 	(gr_line
 		(start 127.115338 79.4)

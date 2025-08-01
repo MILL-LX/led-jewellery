@@ -679,7 +679,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0314eee0-d0eb-4a2d-b59c-ae08ef0e1242")
 		(property "Reference" "D1"
@@ -734,6 +734,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_part#" ""
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bfd34a6d-5cad-44ce-aa78-62b73a7e4cbd")
 		)
@@ -756,7 +765,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5cce6e7c-09ff-4e43-ab2a-98092dc48afb")
 		(property "Reference" "J1"
 			(at 90.678 69.85 0)
@@ -803,6 +812,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_part#" ""
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc7ad034-8eeb-497e-91ea-8e0473c7ec34")
 		)
@@ -823,7 +841,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "74890c57-723f-49ed-91fd-36b992c2a797")
 		(property "Reference" "J2"
@@ -861,6 +879,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" ""
 			(at 106.68 76.2 0)
 			(effects
 				(font
@@ -936,6 +963,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC_part#" "C17408"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a99beaf3-fe1c-41a2-b4cc-592910aee42f")
 		)
@@ -996,6 +1032,15 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_part#" "C501583"
 			(at 129.54 76.2 0)
 			(effects
 				(font

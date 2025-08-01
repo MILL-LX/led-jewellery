@@ -140,14 +140,14 @@
 	(pad "1" smd rect
 		(at -3.2 0)
 		(size 5.5 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "8e74be3f-6d06-4677-b716-f7b49602a049")
 	)
 	(pad "2" smd rect
 		(at 3.2 0)
 		(size 5.5 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "aaf4c600-86da-4bd7-a413-a22a107dd8a4")
 	)

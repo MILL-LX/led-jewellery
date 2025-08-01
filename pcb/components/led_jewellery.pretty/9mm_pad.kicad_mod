@@ -7,7 +7,7 @@
 		(at 0 -5.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "0e80663e-af0f-4978-8c0c-49ca72e8133a")
+		(uuid "ecf00cd4-1f97-4146-b42f-71921771a3a1")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f26977e1-537e-4a47-b000-66c1a19bbce6")
+		(uuid "5a33a64a-fb5f-4984-9567-cd19a5f55d1d")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9376a4b5-9ef8-4b85-9ff0-2798080b5ebc")
+		(uuid "9949655e-5c32-45f9-915c-9990c08e53d9")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3cfc7de0-6632-4f93-b500-822977e2b468")
+		(uuid "4719df8d-f1ed-4d47-afe2-5608b2eb7d6b")
 		(effects
 			(font
 				(size 1 1)
@@ -69,7 +69,7 @@
 	(pad "1" smd circle
 		(at 0 0)
 		(size 9 9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(uuid "dd584517-af8d-45e7-8a2c-9b0ab3d179b7")
 	)
 	(embedded_fonts no)
