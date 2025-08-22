@@ -14,12 +14,12 @@ cturing Information (PMI)---4.0---2014-10-13',
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ '686d4f1303ebee3f6a403a49',
-/* time_stamp */ '2025-07-08T17:02:12Z',
+/* name */ '689cb3ec95ab6b2b688eed15',
+/* time_stamp */ '2025-08-13T15:49:01Z',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
-/* originating_system */ 'ONSHAPE BY PTC INC, 1.200',
+/* originating_system */ 'ONSHAPE BY PTC INC, 1.202',
 /* authorisation */ '  ');
 
 FILE_SCHEMA (('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF { 1 0 10303 442 1 1 4 }'));
@@ -365,7 +365,7 @@ DATA;
 #345=SURFACE_STYLE_FILL_AREA(#346);
 #346=FILL_AREA_STYLE('',(#347));
 #347=FILL_AREA_STYLE_COLOUR('',#348);
-#348=COLOUR_RGB('',0.768627450980392,0.886274509803922,0.952941176470588);
+#348=COLOUR_RGB('',0.901960784313726,0.901960784313726,0.901960784313726);
 #349=MANIFOLD_SOLID_BREP('led_jig2_top',#340);
 #350=SHAPE_DEFINITION_REPRESENTATION(#594,#351);
 #351=SHAPE_REPRESENTATION('led_jig2_top',(#352),#589);
