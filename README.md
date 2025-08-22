@@ -25,14 +25,6 @@ LED modules with momentary buttons for use in illuminated jewellery pieces.  Des
 
 ## Assembly
 
-![](images/01.JPG)  
-
-![](images/02.JPG)  
-
-![](images/03.JPG)  
-
-![](images/04.JPG)  
-
 ![](images/05.JPG)  
 
 ![](images/06.JPG)  
@@ -42,6 +34,14 @@ LED modules with momentary buttons for use in illuminated jewellery pieces.  Des
 ![](images/08.JPG)  
 
 ![](images/09.JPG)  
+
+![](images/01.JPG)  
+
+![](images/02.JPG)  
+
+![](images/03.JPG)  
+
+![](images/04.JPG)  
 
 ![](images/10.JPG)  
 
